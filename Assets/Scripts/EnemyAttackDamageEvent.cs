@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class EnemyAttackDamageEvent : MonoBehaviour
 {
-    public EnemyAI enemyAI;
+    public EnemyAI2 enemyAI2;
     public void AttackDamageEvent()
     {
-        enemyAI.AttackDamage();
+        enemyAI2.AttackDamage();
     }
 }
